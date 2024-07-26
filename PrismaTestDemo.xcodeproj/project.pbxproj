@@ -13,7 +13,6 @@
 		2871B4BF2C50F88A00B68284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2871B4BE2C50F88A00B68284 /* Assets.xcassets */; };
 		2871B4C22C50F88A00B68284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2871B4C02C50F88A00B68284 /* LaunchScreen.storyboard */; };
 		2871B4D82C50FB2D00B68284 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4D72C50FB2D00B68284 /* APIManager.swift */; };
-		2871B4DA2C51021700B68284 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4D92C51021700B68284 /* Constants.swift */; };
 		2871B4DD2C510A1F00B68284 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4DC2C510A1F00B68284 /* CountryViewController.swift */; };
 		2871B4DF2C51136800B68284 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4DE2C51136700B68284 /* CountryViewModel.swift */; };
 		2871B4E42C512AE000B68284 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4E22C512AE000B68284 /* CountryCell.swift */; };
@@ -35,7 +34,6 @@
 		2871B4C12C50F88A00B68284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2871B4C32C50F88A00B68284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2871B4D72C50FB2D00B68284 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		2871B4D92C51021700B68284 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2871B4DC2C510A1F00B68284 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		2871B4DE2C51136700B68284 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 		2871B4E22C512AE000B68284 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				2871B4D02C50F90400B68284 /* Application */,
-				2871B4CF2C50F90000B68284 /* Constants */,
 				2871B4CE2C50F8FA00B68284 /* Extensions */,
 				2871B4CC2C50F8E300B68284 /* Helpers */,
 				2871B4EB2C51DCBF00B68284 /* Utilities */,
@@ -130,14 +127,6 @@
 				2871B4E92C51425700B68284 /* UIImageView + Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2871B4CF2C50F90000B68284 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				2871B4D92C51021700B68284 /* Constants.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		2871B4D02C50F90400B68284 /* Application */ = {
@@ -277,7 +266,6 @@
 				2871B4EA2C51425700B68284 /* UIImageView + Extension.swift in Sources */,
 				2871B4DF2C51136800B68284 /* CountryViewModel.swift in Sources */,
 				2871B4DD2C510A1F00B68284 /* CountryViewController.swift in Sources */,
-				2871B4DA2C51021700B68284 /* Constants.swift in Sources */,
 				2871B4D82C50FB2D00B68284 /* APIManager.swift in Sources */,
 				2871B4B62C50F88500B68284 /* AppDelegate.swift in Sources */,
 				2871B4E42C512AE000B68284 /* CountryCell.swift in Sources */,

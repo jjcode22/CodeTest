@@ -41,13 +41,11 @@ class CountryCell: UITableViewCell {
     
     func configureCountry(){
         guard let country = country else {return}
-        
+        //Country Name
         countryName.text = country.name
+        //Country Phone
         countryPhone.text = "+ 91"
-        
-        
-        
-        
+        //Country Flag
         flagImageView.setImage(with: country.flag)
     }
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 enum FetchError: Error {
     case invalidResponse
     case invalidUrl

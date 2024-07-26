@@ -71,7 +71,6 @@ extension CountryViewController{
 
 extension CountryViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(" no of countries \(viewModel.countryData.count)")
         return viewModel.countryData.count
     }
     
