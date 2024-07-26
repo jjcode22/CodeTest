@@ -22,8 +22,6 @@
 		2871B4EA2C51425700B68284 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4E92C51425700B68284 /* UIImageView + Extension.swift */; };
 		2871B4ED2C51DCD800B68284 /* SVGImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871B4EC2C51DCD800B68284 /* SVGImageProcessor.swift */; };
 		38537D492C53C2B3008B4FF0 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38537D482C53C2B3008B4FF0 /* Country.swift */; };
-		3898225E2C53E62A00E6853E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3898225D2C53E62A00E6853E /* SDWebImage */; };
-		389822602C53E62A00E6853E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3898225F2C53E62A00E6853E /* SDWebImageMapKit */; };
 		389822632C53E82000E6853E /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 389822622C53E82000E6853E /* SVGKit */; };
 		389822652C53E82000E6853E /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 389822642C53E82000E6853E /* SVGKitSwift */; };
 /* End PBXBuildFile section */
@@ -52,8 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3898225E2C53E62A00E6853E /* SDWebImage in Frameworks */,
-				389822602C53E62A00E6853E /* SDWebImageMapKit in Frameworks */,
 				389822652C53E82000E6853E /* SVGKitSwift in Frameworks */,
 				389822632C53E82000E6853E /* SVGKit in Frameworks */,
 				2871B4E82C51422E00B68284 /* Kingfisher in Frameworks */,
@@ -215,8 +211,6 @@
 			name = PrismaTestDemo;
 			packageProductDependencies = (
 				2871B4E72C51422E00B68284 /* Kingfisher */,
-				3898225D2C53E62A00E6853E /* SDWebImage */,
-				3898225F2C53E62A00E6853E /* SDWebImageMapKit */,
 				389822622C53E82000E6853E /* SVGKit */,
 				389822642C53E82000E6853E /* SVGKitSwift */,
 			);
@@ -250,7 +244,6 @@
 			mainGroup = 2871B4A92C50F88400B68284;
 			packageReferences = (
 				2871B4E62C51422E00B68284 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				3898225C2C53E62A00E6853E /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				389822612C53E82000E6853E /* XCRemoteSwiftPackageReference "SVGKit" */,
 			);
 			productRefGroup = 2871B4B32C50F88500B68284 /* Products */;
@@ -523,14 +516,6 @@
 				minimumVersion = 7.12.0;
 			};
 		};
-		3898225C2C53E62A00E6853E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.19.4;
-			};
-		};
 		389822612C53E82000E6853E /* XCRemoteSwiftPackageReference "SVGKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
@@ -546,16 +531,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2871B4E62C51422E00B68284 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
-		};
-		3898225D2C53E62A00E6853E /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3898225C2C53E62A00E6853E /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-		3898225F2C53E62A00E6853E /* SDWebImageMapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3898225C2C53E62A00E6853E /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImageMapKit;
 		};
 		389822622C53E82000E6853E /* SVGKit */ = {
 			isa = XCSwiftPackageProductDependency;
